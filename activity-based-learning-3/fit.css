@@ -1,0 +1,28 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #171717; }
+header { padding: 20px 8%; display: flex; justify-content: space-between; align-items: center; }
+.logo { font-weight: 900; font-size: 20px; text-decoration: none; color: #111; }
+.logo span { color: #d8ff00; }
+nav a { margin: 0 10px; text-decoration: none; color: #222;  font-weight: bold;font-size: large; }
+.join, .button { background: #d8ff00; color: #111; padding: 12px 18px; text-decoration: none; font-weight: bold; border: 0; cursor: pointer; }
+.hero { padding: 100px 10%; color: white; background: #222; }
+.hero p { color: #d8ff00; letter-spacing: 3px; }
+h1 { font-size:100px; line-height: .9; margin: 20px 0 35px; font-weight: 900; }
+main section { padding: 65px 80px; }
+h2 { font-size: 36px; font-weight: 900; }
+.hello { display: flex;  gap: 18px; }
+article { padding: 24px; background: #f1f1ed; transition: transform .25s, background .25s; }
+article:hover { background: #e7ff83; }
+.dark { color: white; background: #171717; }
+.plan { color: #111; }
+.featured { outline: 3px solid #d8ff00; }
+.price { font-size: 32px; font-weight: bold; }
+.price span { font-size: 14px; }
+.signup { background: #d8ff00; }
+form { display: flex; gap: 10px; flex-wrap: wrap; }
+input, select { padding: 14px; border: 1px solid #aaa; flex: 1; min-width: 180px; }
+footer { padding: 24px 8%; background: #111; color: white; font-weight: bold; }
+nav a:hover{
+  color:darkred;
+ 
+}
